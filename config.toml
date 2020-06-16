@@ -117,10 +117,6 @@ disableHugoGeneratorInject = false
     url  = "https://youtube.com/mrcsxsiq"
 
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/mrcsxsiq"
-
-  [[params.social]]
     name = "hackerrank"
     url  = "https://www.hackerrank.com/mrcsxsiq"
 
