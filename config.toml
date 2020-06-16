@@ -1,0 +1,135 @@
+baseURL = "https://marcosfarias.dev"
+title   = "Marcos Paulo Farias"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Marcos Paulo Farias"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Marcos Paulo Farias"
+  keywords = ""
+  images = [""]
+
+  homeSubtitle = "Software Developer | Runner | Batman"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    logoCursorDisabled = false
+    logoCursorColor    = "#67a2c9"
+    logoCursorAnimate  = "2s"
+
+  [params.portrait]
+    path = "https://avatars0.githubusercontent.com/u/993608?s=400&u=bb45ce7d4e959c006c033298b4f845625944a1fd&v=4"
+    alt = "Portrait"
+
+  # Social icons
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/mrcsxsiq"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/mrcsxsiq"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://www.stackoverflow.com/"
+
+  [[params.social]]
+    name = "medium"
+    url  = "https://medium.com/@mrcsxsiq"
+
+  [[params.social]]
+    name = "youtube"
+    url  = "https://youtube.com/mrcsxsiq"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/mrcsxsiq"
+
+  [[params.social]]
+    name = "hackerrank"
+    url  = "https://www.hackerrank.com/mrcsxsiq"
+
+# [menu]
+#   [[menu.main]]
+#     identifier = "about"
+#     name       = "About"
+#     url        = "about/" 
+#   [[menu.main]]
+#     identifier = "posts"
+#     name       = "Blog"
+#     url        = "posts/"

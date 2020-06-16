@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://marcosfarias.dev/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://marcosfarias.dev/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://marcosfarias.dev/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://marcosfarias.dev/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://marcosfarias.dev/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://marcosfarias.dev/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://marcosfarias.dev/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://marcosfarias.dev/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://marcosfarias.dev/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://marcosfarias.dev/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://marcosfarias.dev/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://marcosfarias.dev/tags/"
+                />
+  </url>
+  
+</urlset>
