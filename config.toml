@@ -111,6 +111,10 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "medium"
     url  = "https://medium.com/@mrcsxsiq"
+    
+  [[params.social]]
+    name = "hashnode"
+    url  = "https://marcos.hashnode.dev/"
 
   [[params.social]]
     name = "youtube"
