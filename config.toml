@@ -124,11 +124,11 @@ disableHugoGeneratorInject = false
     name = "hackerrank"
     url  = "https://www.hackerrank.com/mrcsxsiq"
 
-# [menu]
-#   [[menu.main]]
-#     identifier = "about"
-#     name       = "About"
-#     url        = "about/" 
+  [menu]
+    [[menu.main]]
+      identifier = "about"
+      name       = "About"
+      url        = "about/" 
 #   [[menu.main]]
 #     identifier = "posts"
 #     name       = "Blog"
