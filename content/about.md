@@ -6,6 +6,4 @@ aliases = ["about-us","about-hugo","contact"]
   name = "Marcos Paulo Farias"
 +++
 
-Software developer focused on solving computational problems using technology.
-
-My biggest aim is become the best Mobile Developer that I can.
+Hi, My name is Marcos and actually I live in Brazil. I'm a Software developer focused on solving computational problems using technology. My biggest aim is become the best Mobile Developer that I can.
